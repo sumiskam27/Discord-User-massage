@@ -1,0 +1,6 @@
+@echo off
+echo Installing required packages...
+pip install requests python-dotenv
+echo Starting application...
+python bot.py
+pause
